@@ -9,7 +9,7 @@ from fastai.vision import *
 
 model_file_url = 'http://www.dropbox.com/s/ll8dmzcmnh5wmf2/stage-2.pth?raw=1'
 model_file_name = 'model'
-classes = ['strawberry', 'apple', 'cherry']
+classes = ['apple','cherry','strawberry']
 path = Path(__file__).parent
 
 app = Starlette()
